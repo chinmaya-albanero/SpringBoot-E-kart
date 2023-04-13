@@ -11,6 +11,8 @@ import java.util.ArrayList;
 @Service
 public class CartService {
     @Autowired
+    private ProductService productService;
+    @Autowired
 
     private CartRepository cartRepository;
 
